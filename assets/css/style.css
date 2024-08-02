@@ -10,11 +10,11 @@ body {
 
 .main-container {
   display: flex;
+  height: 100vh;
 }
 
 .menu-principal {
   background-color: #fff;
-  height: 100vh;
   width: 25vw;
   min-width: 25vw;
   border-right: 1px solid #bec1bb;
@@ -43,9 +43,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   align-items: center;
   width: 75vw;
   min-width: 30vw;
+  height: 100vh;
   background-color: #e8ebe4;
 }
 .menu-secundario img {
@@ -53,7 +55,10 @@ body {
   padding: 2rem;
 }
 .inactivo {
-  color: #e8ebe4;
+  color: #bec1bb;
+}
+
+.estado {
   font-size: small;
 }
 .pp {
@@ -64,14 +69,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
   border-bottom: 1px solid #bec1bb;
 }
-.boton button {
+.nuevo-chat {
   color: white;
   background-color: #a491d2;
   height: 3rem;
-  width: 70%;
-  margin: 2rem;
+  width: 80%;
 }
 
 .descripcion {
@@ -83,6 +88,6 @@ body {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid #bec1bb;
-  height: 3rem;
+  height: 3.5rem;
   padding: 1rem;
 }
