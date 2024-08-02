@@ -73,3 +73,16 @@ body {
   width: 70%;
   margin: 2rem;
 }
+
+.descripcion {
+  font-size: small;
+}
+
+.usuarios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #bec1bb;
+  height: 3rem;
+  padding: 1rem;
+}
